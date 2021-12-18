@@ -16,8 +16,13 @@
         <div class="product-container">
           <div class="product-image">
             <!-- image goes here -->
+            <img :src="image">
           </div>
           <div class="product-info">
+            <!-- Second code challenge -->
+            <a class="button" style="text-decoration: none; margin-left: 50%;" onclick="window.open(this); return false;"
+              :href="url">Vue.js doc</a>
+            <!-- /Second code challenge -->
             <h1>{{ product }}</h1>
           </div>
         </div>
